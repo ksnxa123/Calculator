@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <button type="default" size="{{primarySize}}" plain="{{plain}}" hover-class="button-hover"
+        disabled="{{disabled}}" bindtap="toCalc"> {{motto}} </button>
+  </view>
+</view>
